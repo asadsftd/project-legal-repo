@@ -152,8 +152,43 @@ main{
     margin: auto;
     text-align: center;
 }
+#corasol{
+    margin-top: 60px;
+}
+/* Feq section */
+#fequently{
+    margin-top: 60px;
+}
+#feq-text{
+    text-align: center;
 
+}
+#feq-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+#feq-dspt{
+    width: 80%;
+    text-align: center;
+    margin: auto;
 
+}
+#feq-card{
+    font-size: 18px;
+    font-weight: bold;
+}
+#feq-dspts{
+    width: 60%;
+    
+}
+#feq-imgs{
+    width: 70%;
+}
+#fq{
+    background-color: rgb(227, 220, 207);
+    margin-top: 10px;
+    box-sizing: border-box;
+}
 
 
 
