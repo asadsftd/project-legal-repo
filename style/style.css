@@ -1,0 +1,68 @@
+/* Header Styles */
+header{
+    width: 85%;
+    margin: auto;
+}
+/* Nav Styles */
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#nav-meno{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    /* nav */
+    #nav-meno{
+    flex-direction: column;
+    display: none;
+    gap: 0px;
+}
+/* button */
+#btn-primary{
+    font-size: 20px;
+    padding: 0px 5px;
+    position: relative;
+    left: 20px;
+}
+#nav-img{
+    width: 40%;
+}
+}
