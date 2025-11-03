@@ -246,7 +246,7 @@ main{
 }
 #hero-btn{
     position: relative;
-    top: 10px;
+    top: -4px;
 }
 body{
     cursor: pointer;
@@ -271,5 +271,19 @@ body{
 }
 #client-title{
     font-size: 20px;
+}
+#fequently-container{
+    flex-direction: column-reverse;
+}
+#feq-imgs{
+    position: relative;
+    left: 20px;
+}
+#feq-title{
+    font-size: 20px;
+}
+
+#feq-dspts{
+    width: 80%;
 }
 }
