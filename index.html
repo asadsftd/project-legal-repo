@@ -12,7 +12,15 @@
     <!-- Header Section -->
      <header>
         <nav id="navbar">
-            <img src="images/logo2.png" alt="" id="nav-img">
+            <div class="flex items-center">
+                <img src="images/logo.png" alt="" id="nav-img">
+                <div>
+            <h2 class="text-[30px] 
+            font-bold relative right-10" id="justice" >
+                Justice
+            </h2>
+                </div>
+            </div>
             <ul class="" id="nav-meno">
                 <li class="" id="nav-link"><a href="" id="nav-links">Home</a></li>
                 <li id="nav-link"><a href="" id="nav-links">Services</a></li>
@@ -26,7 +34,7 @@
         </nav>
         <!-- hero section -->
          <div
-  class="hero min-h-[500px]" id="hero-img"
+  class="hero min-h-[500px] rounded-lg" id="hero-img"
   style="background-image: url(./images/banner.png);">
   <div class="hero-overlay"></div>
   <div class="hero-content text-neutral-content text-center">
@@ -40,13 +48,15 @@
          Ipsum available, but the majority have suffered 
          alteration in some form, by injected humour.
       </p>
-      <div class="">
+      <div class="flex " id="flex">
         <input type="text" name="" id="" 
-        placeholder="Search your services">
-        <button class="btn text-white text-[20px]
+        placeholder="Search your services" >
+        <div class="">
+            <button class="btn text-white text-[20px]
          bg-[#B68C5A] rounded-md border-none " id="hero-btn" >
             Search
         </button>
+        </div>
       </div>
     </div>
   </div>
@@ -154,7 +164,7 @@
             </div>
             <!-- Side Bar  -->
  <!--  -->
-<div class="carousel w-full h-[500px] " id="corasol" >
+<div class="carousel w-full h-[500px] rounded-lg" id="corasol" >
   <div id="slide1" class="carousel-item relative w-full">
   <img
       src="images/slider-1.jpg"
@@ -239,6 +249,68 @@
                 </div>
             </div>
            </section>
+           <!-- contact section -->
+            <section class="mt-14" id="contact">
+                <div id="contact-text">
+                    <h2 id="contact-title">
+                        Contact With Us
+                    </h2>
+                    <p id="contact-dspt">
+                        There are many variations of passages
+                         of Lorem Ipsum available, but the
+                          majority have suffered alteration in 
+                          some form, by injected humour.
+                    </p>
+                </div>
+                <!-- contact container and content -->
+                 <div class="flex gap-5 items-center mt-16" id="contact-container">
+                    <div class="" id="contact-card-one">
+                        <div class="grid grid-cols-2" id="border">
+                            <div class="" id="card-one">
+                        <img src="images/address.png" alt="" 
+                        id="contact-img">
+                        <h2 id="img-title">Address</h2>
+                        <p id="img-dspt">A108 Adam Street,</p>
+                        <p id="img-dspt">New York, NY 535022</p>
+                        </div>
+                        <div class="" id="card-one">
+                            <img src="images/call.png" alt="" 
+                        id="contact-img">
+                        <h2 id="img-title">Call</h2>
+                        <p id="img-dspt">+88 01750 00 00 00</p>
+                        <p id="img-dspt">+88 01750 00 00 00</p>
+                        </div>
+                        <div class="" id="card-one">
+                            <img src="images/email.png" alt="" 
+                        id="contact-img">
+                        <h2 id="img-title">Email</h2>
+                        <p id="img-dspt">info@gmail.com</p>
+                        <p id="img-dspt">info@gmail.com</p>
+                        </div>
+                        <div class="" id="card-one">
+                            <img src="images/time.png" alt="" 
+                        id="contact-img">
+                        <h2 id="img-title">Working Hours</h2>
+                        <p id="img-dspt">Mon-Fri: 9AM to 5PM</p>
+                        <p id="img-dspt">Sunday: 9AM to 1 PM</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="" id="contact-card">
+              <input type="text" name="" id="" 
+              placeholder="Enter Your Name" >
+              <input type="text" name="" id="" 
+              placeholder="Enter Your Name" >
+              <input type="text" name="" id="" 
+              placeholder="Enter Your Name" >
+              <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea>
+     <div id="sub">
+        <button id="btn-primaryt">Submit</button>
+     </div>
+                    </div>
+                 </div>
+            </section>
       </main>
       <!-- Footer section -->
        <footer>

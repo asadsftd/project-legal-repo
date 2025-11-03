@@ -10,14 +10,21 @@ header{
     justify-content: space-between;
     margin-top: 10px;
 }
+#nav-img{
+    width: 20%;
+    height: 100px;
+}
 #nav-meno{
     display: flex;
     align-items: center;
     gap: 50px;
+    position: relative;
+    right: 150px;
 }
 /* hero img */
 #hero-img{
     margin-top: 60px;
+    
 }
 #hero-btn{
     position: relative;
@@ -33,6 +40,7 @@ input{
     cursor: pointer;
     border-radius: 10px;
     text-indent: 10px;
+    width: 80%;
 }
 /* main */
 main{
@@ -189,8 +197,68 @@ main{
     margin-top: 10px;
     box-sizing: border-box;
 }
+/* contact us section */
+#contact-text{
+    text-align: center;
+}
 
-
+#contact-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+#contact-dspt{
+    width: 80%;
+    text-align: center;
+    margin:auto;
+}
+#card-one{
+    background-color: rgb(244, 244, 244);
+    padding: 20px 20px;
+    text-align: center;
+    border: 1px solid rgb(248, 220, 189);
+}
+#contact-img{
+    margin: auto;
+}
+#img-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+#contact-card input{
+    height: 40px;
+    background-color: rgb(227, 227, 227);
+    width: 100%;
+    margin-top: 20px;
+}
+textarea{
+    
+    background-color: rgb(227, 227, 227);
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    text-indent: 20px;
+    padding-top: 5px;
+}
+#contact-card{
+    position: relative;
+    top: -10px;
+}
+#btn-primaryt{
+    width: 50%;
+    margin: auto;
+    border: none;
+    padding: 5px 5px ;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #B68C5A;
+    border-radius: 12px;
+}
+#sub{
+    text-align: center;
+    margin-top: 10px;
+}
 
 
 
@@ -231,10 +299,11 @@ main{
     font-size: 20px;
     padding: 0px 5px;
     position: relative;
-    left: 20px;
+    
 }
 #nav-img{
-    width: 40%;
+    width: 70%;
+    height: 50px;
 }
 /* hero title */
 #hero-title{
@@ -244,9 +313,19 @@ main{
     position: relative;
     left: 0px;
 }
+#flex{
+    flex-direction: column;
+    gap: 20px;
+}
+#justice{
+    display: none;
+}
+input{
+    width: 90%;
+    margin: auto;
+}
 #hero-btn{
-    position: relative;
-    top: -4px;
+    width: 50%;
 }
 body{
     cursor: pointer;
@@ -285,5 +364,16 @@ body{
 
 #feq-dspts{
     width: 80%;
+}
+#contact-container{
+    flex-direction: column;
+}
+#border{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 100%;
+}
+#card-one{
+    width: 100%;
 }
 }
