@@ -22,6 +22,7 @@ header{
 #hero-btn{
     position: relative;
     top: -2px;
+    
 }
 /* input */
 input{
@@ -134,6 +135,23 @@ main{
         rgb(244, 247, 188), rgb(222, 252, 203)
      );
 }
+/* Client Styles */
+#client{
+    margin-top: 60px;
+}
+#client-text{
+    text-align: center;
+
+}
+#client-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+#client-dspt{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
 
 
@@ -193,7 +211,7 @@ main{
 }
 #hero-btn{
     position: relative;
-    top: -2px;
+    top: 10px;
 }
 body{
     cursor: pointer;
@@ -210,5 +228,13 @@ body{
 }
 #legal{
     margin-top: 40px;
+}
+/* corasol */
+#corasol{
+    height: 300px;
+    margin-top: 40px;
+}
+#client-title{
+    font-size: 20px;
 }
 }
