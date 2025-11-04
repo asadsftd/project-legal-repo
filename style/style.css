@@ -1,4 +1,12 @@
-/* Header Styles */
+ /* Google fonts */
+ 
+.sora-eb {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+ /* Header Styles */
 header{
     width: 85%;
     margin: auto;
@@ -79,7 +87,7 @@ main{
 }
 #legal-content-one{
     
-    padding: 10px 10px;
+    padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -90,7 +98,7 @@ main{
 }
 #legal-content-two{
     
-    padding: 10px 10px;
+     padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -101,7 +109,7 @@ main{
 }
 #legal-content-three{
     
-    padding: 10px 10px;
+     padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -112,7 +120,7 @@ main{
 }
 #legal-content-four{
     
-    padding: 10px 10px;
+    padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -123,7 +131,7 @@ main{
 }
 #legal-content-five{
     
-    padding: 10px 10px;
+    padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -134,7 +142,7 @@ main{
 }
 #legal-content-six{
     
-    padding: 10px 10px;
+    padding: 20px 15px;
     border-radius: 12px;
     cursor: pointer;
     box-sizing: border-box;
@@ -355,6 +363,9 @@ body{
     grid-template-columns: repeat(1, 1fr);
     margin-top: 40px;
 }
+#legal-container h3{
+    font-size: 18px;
+}
 #legal-title{
     font-size: 20px;
 }
@@ -379,7 +390,9 @@ body{
 #feq-title{
     font-size: 20px;
 }
-
+#feq-card{
+    font-size: 16px;
+}
 #feq-dspts{
     width: 80%;
 }
@@ -391,8 +404,14 @@ body{
     gap: 5px;
     width: 100%;
 }
+#img-title{
+    font-size: 18px;
+}
 #card-one{
     width: 100%;
+}
+#contact-title{
+    font-size: 20px;
 }
 footer{
     height: auto;
@@ -406,10 +425,13 @@ footer{
 }
 #footer-input input{
     width: 100%;
+    margin-top: 5px;
     
 }
 #rsp{
     width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
 }
 #footer-btn{
     text-align: center;
