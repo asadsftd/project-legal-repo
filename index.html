@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body id="sora-eb">
+<body id="sora-eb" class="cursor-pointer">
     <!-- Header Section -->
      <header>
         <nav id="navbar">
@@ -168,10 +168,31 @@
             <!-- Side Bar  -->
  <!--  -->
 <div class="carousel w-full h-[500px] rounded-lg" id="corasol" >
-  <div id="slide1" class="carousel-item relative w-full">
-  <img
-      src="images/banner.png"
-      class="w-full" />
+  <div id="slide1" class="carousel-item relative
+   w-full bg-[url(/images/banner.png)] flex items-center justify-center">
+   <!-- text and para -->
+    <div class="">
+      <img src="images/user-1.png" alt=""
+       class="w-[80px] mx-auto mb-3">
+       <h2 class="text-[25px] font-semibold text-white
+        text-center mt-3">
+        Asad Khan Opu
+       </h2>
+       <h3 class="text-[22px] text-center text-white mt-3">
+        UIX Designer
+       </h3>
+       <p class="text-white w-[900px] mx-auto mt-4
+        text-center">
+        Contrary to popular belief, Lorem Ipsum is not
+         simply random text. It has roots in a piece of
+          classical Latin literature from 45 BC, making
+           it over 2000 years old. Richard McClintock, 
+           a Latin professor at Hampden-Sydney College 
+           in Virginia, looked up one of the more obscure
+           Latin words, consectetur.
+       </p>
+    </div>
+    <!--  -->
       
     <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
       <a href="#slide4" class="btn btn-circle">❮</a>

@@ -320,6 +320,13 @@ footer{
     display: none;
     gap: 0px;
 }
+header{
+    width: 100%;
+}
+main{
+    width: 95%;
+    margin: auto;
+}
 /* button */
 #btn-primary{
     font-size: 20px;
@@ -361,7 +368,9 @@ body{
 }
 #legal-container{
     grid-template-columns: repeat(1, 1fr);
-    margin-top: 40px;
+    
+    width: 90%;
+    margin:40px auto;
 }
 #legal-container h3{
     font-size: 18px;
@@ -400,7 +409,7 @@ body{
     flex-direction: column;
 }
 #border{
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 5px;
     width: 100%;
 }
